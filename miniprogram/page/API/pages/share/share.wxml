@@ -17,14 +17,6 @@
       </view>
       <view class="weui-cell weui-cell_input">
         <view class="weui-cell__hd">
-          <view class="weui-label">描述</view>
-        </view>
-        <view class="weui-cell__bd">
-          <input class="weui-input" type="text" disabled="{{true}}" value="{{shareData.desc}}"></input>
-        </view>
-      </view>
-      <view class="weui-cell weui-cell_input">
-        <view class="weui-cell__hd">
           <view class="weui-label">跳转页面</view>
         </view>
         <view class="weui-cell__bd">
@@ -32,6 +24,7 @@
         </view>
       </view>
     </view>
+    <button open-type="share">share</button>
     <view class="weui-cells__tips">点击右上角菜单转发给好友</view>
   </view>
 
